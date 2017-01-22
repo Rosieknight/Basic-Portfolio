@@ -75,6 +75,7 @@ li a{
 	min-height: 100%;
 	width: 960px;
 	margin-left:200px;
+	margin-bottom: 90px;
 }
 
 .main{
@@ -88,7 +89,6 @@ li a{
 	height:100%;
 	border: 5px solid #dddddd;
 	margin-top: 100px;
-	margin-bottom:90px; 
 	margin-right: 10px;
 	padding: 10px;
 }
