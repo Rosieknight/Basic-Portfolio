@@ -28,6 +28,10 @@ h3{
 	font-size: 20px;
 }
 
+.play{
+	min-height: 100%;
+}
+
 header {
 	color: #4aaaa5;
 	background-color: #ffffff;
@@ -78,8 +82,9 @@ li a{
 .tree{
 	min-height: 100%;
 	width: 960px;
-	margin-left:200px;
-	margin-bottom: 90px;
+	margin-left:190px;
+	padding-top: 15px;
+	padding-bottom: 108px;
 }
 
 .main{
@@ -89,13 +94,14 @@ li a{
 	background-image: url("../assets/images/fabric.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	width: 650px;
+	width: 630px;
 	height:100%;
 	border: 5px solid #dddddd;
-	margin-top: 100px;
-	margin-right: 10px;
-	padding: 10px;
-}
+	margin-top: 75px;
+	margin-bottom: 5px;
+	padding: 10px 5px;
+ 	display: inline-block;
+ }
 
 .main h2{
 	padding-left: 10px;
@@ -122,12 +128,14 @@ li a{
 
 .sidebar{
 	display:inline-block;
-	width: 270px;
+	width: 260px;
 	float:right;
 	text-align: center;
 	background-color: #ffffff;
+	padding-top:10px;
 	padding-bottom: 10px;
-	margin-top: 10px;
+	margin-top: 75px;
+	border: 5px solid #dddddd;
 }
 
 .icon{
@@ -254,7 +262,7 @@ footer{
 	border-top: 5px solid #4aaaa5;
 	color:#ffffff;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	margin-top:-100px;
+	margin-top:-105px;
 	bottom: 0;
     left: 0;
     right: 0;
