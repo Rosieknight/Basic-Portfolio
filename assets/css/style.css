@@ -65,6 +65,7 @@ ul{
 
 li{
 	float: right;
+	font-size:20px;
 }
 
 li a{
@@ -75,8 +76,11 @@ li a{
 	color: #4aaaa5;
 }
 
-.navbar a:hover{
-	border: 2px solid  #4aaaa5;
+.navbar a:hover {
+	border: 2px solid #666666;
+	background-color: #b3a959;
+	color: #e6e6e6;
+	padding: 5px 14px;
 }
 
 .tree{
@@ -133,26 +137,44 @@ li a{
 	text-align: center;
 	background-color: #ffffff;
 	padding-top:10px;
-	padding-bottom: 10px;
+	padding-bottom: 7px;
 	margin-top: 75px;
 	border: 5px solid #dddddd;
+}
+
+.sidebar h3{
+	margin-bottom: 3px;
 }
 
 .icon{
 	display: inline;
 	height: 40px;
 	width: 40px;
-	padding:5px;
+	padding:7px;
 }
 
 .lin{
-	height: 45px;
-	width: 45px;
+	height: 46px;
+	width: 46px;
+	padding: 4px;
+}
+
+a:hover .gth{
+	background-color: #b3a959;
+	border: 2px solid #4aaaa5;
+	padding: 5px;
+}
+
+a:hover .lin{
+	background-color: #e6e6e6;
+	border: 2px solid #4aaaa5;
 	padding: 2px;
 }
 
-a:hover img{
-	background-color:#4aaaa5;
+a:hover .sof{
+	background-color: #4aaaa5; 
+	border: 2px solid #666666;
+	padding: 5px;
 }
 
 form{
@@ -195,6 +217,7 @@ form{
   transition: .5s ease;
   background-color: #4aaaa5;
 }
+
 .projects a:hover .overlay{
 	opacity: 1;
 }
