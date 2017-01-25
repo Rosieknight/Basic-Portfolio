@@ -120,6 +120,8 @@ li a{
 }
 
 #me{
+	background-image:url("../images/birthday.JPG");
+	background-size:cover;
 	display: block;
 	float: left;
 	height: 260px;
