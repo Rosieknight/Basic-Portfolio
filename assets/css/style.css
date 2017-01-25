@@ -122,14 +122,16 @@ li a{
 #me{
 	background-image:url("../images/birthday.JPG");
 	background-size:cover;
-	display: block;
+	display: inline-block;
 	float: left;
 	height: 260px;
 	width:300px;
+	margin: 10px 5px;
+	margin-bottom: 5px;
 	padding-top:10px;
 	padding-right: 10px;
 	padding-bottom: 5px;
-	padding-left: 5px;
+	padding-left: 5px; 
 }
 
 .sidebar{
