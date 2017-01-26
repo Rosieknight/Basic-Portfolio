@@ -128,10 +128,7 @@ li a{
 	width:300px;
 	margin: 10px 5px;
 	margin-bottom: 5px;
-	padding-top:10px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-left: 5px; 
+	padding: 10px 10px 5px 5px;
 }
 
 .sidebar{
@@ -237,10 +234,7 @@ form{
 .left{
 	width: 230px;
 	height: 150px;
-	margin-top:10px;
-	margin-right: 25px;
-	margin-left: 50px;
-	margin-bottom: 15px;
+	margin:10px 25px 50px 15px;
 	background-size: cover;
 	display: inline-block;
 	position: relative;
@@ -250,10 +244,7 @@ form{
 .right{
 	width: 230px;
 	height: 150px;
-	margin-top:10px;
-	margin-right: 50px;
-	margin-left: 25px;
-	margin-bottom: 15px;
+	margin:10px 50px 25px 15px;
 	background-size: cover;
 	display: inline-block;
 	position: relative;
